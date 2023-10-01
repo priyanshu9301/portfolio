@@ -43,10 +43,12 @@ imageOverlay.addEventListener('click', () => {
 
 
 });
-// contdiv.addEventListener('click', () => {
-//     contdiv.style.zindex = "10"
-// });
+const expand_down = document.querySelector(".expand-down");
+const down = document.querySelector(".skillsdiv")
 
-// openedImage.addEventListener('click', (event) => {
-//     event.stopPropagation(); // Prevent the overlay from closing when clicking on the opened image itself.
-// });
+let activeIndexx;
+
+expand_down.addEventListener("click", () => {
+
+    document.getElementsByClassName(".skills").style.display = "none";
+});

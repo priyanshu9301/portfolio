@@ -36,7 +36,7 @@ nav {
     position: sticky;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 110vh;
     background-color: black;
     width: 18rem;
     padding: 1.8rem 0.85rem;
@@ -257,7 +257,8 @@ body.collapsed .expand-btn img {
     
   }
   .objmain h1{
-    margin-left: 350px;
+    text-align: center;
+    margin-left: -300px;
     font-weight: 800;
   }
   .objmain p{
@@ -277,3 +278,56 @@ body.collapsed .expand-btn img {
    /* background-color: #625BFE */
    z-index: 30;
   }
+  .skillsmain{
+    display: flex;
+  }
+  .skillsdiv{ margin-top: 60px;
+    margin-left: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills{margin-top: 20px;
+    margin-left: 40px;
+    width: 29%;
+    height: 300px;
+    background-color: #39393b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .circle{margin-left: 27%;
+    margin-top: -20px;
+    width: 45% ;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 100px ;
+  }
+  .circle img {
+    width: 100% ;
+    height: 150px;
+    background-color: #d0cfe0;
+    border-radius: 100px ;   
+  }
+  .skills h5{text-wrap: wrap;
+    color: white;
+    margin-left: 7%;
+    margin-right: 4%;
+   margin-top: 10px;
+  }
+ .res1{
+  text-align: center;
+ }
+ .projectmain{
+  display: block;
+ }
+ .resimg{margin: 20px 0px;
+  margin-left: 30%;
+  width: 400px;
+  height: 250px;
+ }
+ .projectmain p{
+  margin-top: 10px;
+  font-size: 19px;
+ }
