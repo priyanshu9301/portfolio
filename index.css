@@ -231,14 +231,6 @@ body.collapsed .expand-btn img {
     width: 320px;
     height: 300px;
   }
-
-  
-  /* .contdiv1{
-    background-image: url("https://raw.githubusercontent.com/gist/InfiniteVerma/13993a86f297c1ce72cca015ab3a29cb/raw/dc3d7693b7ce6b863b38dafbe5a23c77b616b51c/About%20Me.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-  } */
   
   .contdiv1 img ,.contdiv2 img,.contdiv3 img, .contdiv4 img{
     width: 320px;
@@ -330,4 +322,61 @@ body.collapsed .expand-btn img {
  .projectmain p{
   margin-top: 10px;
   font-size: 19px;
+ }
+ @media (min-width: 1150px) and (max-width: 1250px) {
+.contdiv{
+  margin-left: -13%;
+}
+.objmain h1{
+  margin-top: 25px;
+}
+
+
+.skills .circle{
+ 
+  margin-top: 10px;
+  width: 55%;
+  border-radius: 100%;
+}
+.skills{
+  height: fit-content;
+}
+
+ }
+
+ @media (min-width: 701px) and (max-width: 1149px) {
+  .contdivsec1 div,.contdivsec2 div{
+  width: 240px;
+  height: 260px;
+}
+.objmain h1{
+  margin-top: 30px;
+}
+.contdiv1 img ,.contdiv2 img,.contdiv3 img, .contdiv4 img{
+  width: 240px;
+  height: 260px;
+  border-radius:100% ;
+}
+.objmain h1{
+  margin-top: 35px;
+}
+
+.contdiv{
+  margin-left: -13%;
+}
+.skills .circle{
+  margin-top: 10px;
+  width: 55%;
+  border-radius: 100%;
+}
+.skills{width: 33% ;
+  
+}
+.circle{
+  height: 130px;
+}
+.circle img {
+  height: 130px;
+  border-radius: 100%;
+}
  }
